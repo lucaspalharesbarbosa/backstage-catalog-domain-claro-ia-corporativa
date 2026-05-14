@@ -1,0 +1,13 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-location
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: github-locations-claro-ia-corporativa
+  description: >-
+    URLs no GitHub das entidades do catálogo do domínio Claro IA Corporativa.
+spec:
+  type: url
+  targets:
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-ia-corporativa/blob/main/apis/super-rag-rest-v1.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-ia-corporativa/blob/main/domains/claro-ia-corporativa.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-ia-corporativa/blob/main/systems/superag-intelligence.yaml
