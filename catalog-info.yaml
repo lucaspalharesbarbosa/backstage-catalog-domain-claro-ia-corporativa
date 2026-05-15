@@ -5,7 +5,7 @@ metadata:
   name: backstage-catalog-domain-ia-corporativa
   description: Catálogo do domínio Claro IA Corporativa — entidades em apis, domains, e systems
 spec:
-  type: url
+  type: file
   targets:
     - ./apis/*.yaml
     - ./domains/*.yaml
