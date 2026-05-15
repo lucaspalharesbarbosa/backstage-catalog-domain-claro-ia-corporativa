@@ -7,6 +7,6 @@ metadata:
 spec:
   type: url
   targets:
-    - ./apis
-    - ./domains
-    - ./systems
+    - ./apis/*.yaml
+    - ./domains/*.yaml
+    - ./systems/*.yaml
