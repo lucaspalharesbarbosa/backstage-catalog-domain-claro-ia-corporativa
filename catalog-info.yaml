@@ -1,0 +1,12 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-location
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-catalog-domain-ia-corporativa
+  description: Catálogo do domínio Claro IA Corporativa — entidades em apis, domains, e systems
+spec:
+  type: url
+  targets:
+    - ./apis
+    - ./domains
+    - ./systems
